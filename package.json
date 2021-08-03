@@ -1,0 +1,26 @@
+{
+  "name": "biwa-shamisen",
+  "version": "0.1.0",
+  "description": "A BiwaScheme websocket server that provides support for interactive programming and integration with Emacs",
+  "main": "./bin/boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+      "biwascheme",
+      "shamisen",
+      "emacs",
+      "scheme",
+      "slime"
+  ],
+  "author": "ArooBaito",
+  "license": "MIT",
+  "bin": {
+      "shamisen": "./bin/boot.js",
+      "shamisen-emacs": "./bin/emacs_boot.js"
+  },
+  "dependencies": {
+    "biwascheme": "latest",
+    "ws": "^8.0.0"
+  }
+}
