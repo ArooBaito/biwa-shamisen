@@ -7,20 +7,28 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-      "biwascheme",
-      "shamisen",
-      "emacs",
-      "scheme",
-      "slime"
+    "biwascheme",
+    "shamisen",
+    "emacs",
+    "scheme",
+    "slime"
   ],
   "author": "ArooBaito",
   "license": "MIT",
   "bin": {
-      "shamisen": "./bin/boot.js",
-      "shamisen-emacs": "./bin/emacs_boot.js"
+    "shamisen": "bin/boot.js",
+    "shamisen-emacs": "bin/emacs_boot.js"
   },
   "dependencies": {
     "biwascheme": "latest",
     "ws": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArooBaito/biwa-shamisen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArooBaito/biwa-shamisen/issues"
+  },
+  "homepage": "https://github.com/ArooBaito/biwa-shamisen#readme"
 }
